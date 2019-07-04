@@ -2,7 +2,7 @@ import React from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import todoApp from './src/reducers';
-import Main from './src/components/Main';
+import Main from './src/containers/Main';
 
 let store = createStore(todoApp);
 

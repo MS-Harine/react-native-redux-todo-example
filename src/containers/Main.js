@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addTodo, completeTodo, setVisibilityFilter, VisibilityFilters } from '../actions';
 import { View } from 'react-native';
-import AddTodo from './AddTodo';
-import TodoList from './TodoList';
-import Footer from './Footer';
+import AddTodo from '../components/AddTodo';
+import TodoList from '../components/TodoList';
+import Footer from '../components/Footer';
 
 class Main extends Component {
   render() {
